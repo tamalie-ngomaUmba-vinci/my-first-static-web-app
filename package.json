@@ -6,9 +6,11 @@
     "build": "esbuild src/main.js --bundle --minify --sourcemap --outfile=public/build/bundle.js --loader:.js=jsx"  
   },
   "devDependencies": {
-    "esbuild": "^0.19.2",
-    "sirv-cli": "^2.0.3"
-  }
+  "esbuild": "^0.19.2",
+  "sirv-cli": "^2.0.3"
+
+}
+
 
 }
 
