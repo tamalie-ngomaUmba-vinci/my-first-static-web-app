@@ -9,8 +9,6 @@
   "devDependencies": {
   "esbuild": "^0.19.2",
   "sirv-cli": "^1.0.14"
-  },
-
-  "test": "echo \"No tests specified\" && exit 0"
+  }
 }
 
