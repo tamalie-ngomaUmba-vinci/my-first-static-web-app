@@ -3,9 +3,14 @@
   "version": "1.0.0",
   "scripts": { 
     "start": "sirv ./src public --cors --single --no-clear --port 8000",
-    "build": "esbuild src/main.js --bundle --minify --sourcemap --outfile=public/build/bundle.js --loader:.js=jsx"  
+    "build": "esbuild src/main.js --bundle --minify --sourcemap --outfile=public/build/bundle.js --loader:.js=jsx",
+    "test": "jasmine"
   },
   "devDependencies": {
   "esbuild": "^0.19.2",
   "sirv-cli": "^1.0.14"
-}}
+  },
+
+  "test": "echo \"No tests specified\" && exit 0"
+}
+
