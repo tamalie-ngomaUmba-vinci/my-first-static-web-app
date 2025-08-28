@@ -7,11 +7,5 @@
   },
   "devDependencies": {
   "esbuild": "^0.19.2",
-  "sirv-cli": "^2.0.3"
-
-}
-
-
-}
-
-
+  "sirv-cli": "^1.0.14"
+}}
